@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 80px;
+  margin-top: 40px;
+  line-height: 95px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 24px;
+}
+.header img {
+  margin: 48px 0;
+}
+
+h2 {
+  font-size: 32px;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #000000;
+}
+h2 span {
+  padding-left: 16px;
+  color: #A00404;
+}
+
+.profile p {
+  margin-bottom: 24px;
+}
+
+.education h2 {
+  margin-top: 64px;
+}
+.education p {
+  margin-bottom: 16px;
+}
+
+.skill {
+  background: #415165;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+}
+.skill h2 {
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+  padding-top: 24px;
+  margin-bottom: 40px;
+}
+.skill h2 span {
+  color: #FFFFFF;
+}
+.skill ul {
+  width: 220px;
+  margin: 0 auto;
+  border-left: 1px solid #FFFFFF;
+  padding-left: 24px;
+}
+.skill ul li {
+  margin-top: 8px;
+}
+
+.work h3 {
+  font-weight: bold;
+}
+.work p {
+  font-size: 20px;
+  width: 642px;
+}
+.work ul {
+  border-left: 1px solid #96A9C4;
+  margin-left: 24px;
+  padding-left: 24px;
+}
+.work ul li {
+  margin-bottom: 24px;
+}
+
+.footer {
+  background: #415165;
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+.footer h2 {
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+.footer h2 span {
+  color: #FFFFFF;
+}
+.footer ul {
+  margin-top: 24px;
+}
+.footer ul li {
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.footer ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer ul li a:hover {
+  color: #A00404;
+}
+
+.social img {
+  margin-left: 24px;
+}/*# sourceMappingURL=all.css.map */
