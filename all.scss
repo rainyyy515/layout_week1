@@ -54,8 +54,8 @@ h2{
   margin-bottom: 64px;
   color: #FFFFFF;
   padding-bottom: 40px;
+  text-align: center;
   h2{
-    text-align: center;
     border-bottom: 1px solid #FFFFFF;
     padding-top: 24px;
     margin-bottom: 40px;
@@ -64,13 +64,18 @@ h2{
     }
   }
   ul{
-    width: 220px;
-    margin: 0 auto;
+    background: #000;
+    display: inline-block;
+    text-align-last: left;
     border-left: 1px solid #FFFFFF;
     padding-left: 24px;
     li{
-      margin-top: 8px;
+      margin-bottom: 8px;
+      //會影響最下面的li多8px
     }
+  }
+  .container{
+    max-width: 996px;
   }
 }
 
@@ -122,7 +127,11 @@ h2{
 }
 
 .social{
-  img{
+  a{
     margin-left: 24px;
+  }
+  img:hover{
+    background: #A00404;
+    border-radius: 50%;
   }
 }

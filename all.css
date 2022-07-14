@@ -144,6 +144,10 @@ img {
 }
 
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
   font-size: 24px;
   line-height: 1.5;
 }
@@ -193,9 +197,9 @@ h2 span {
   margin-bottom: 64px;
   color: #FFFFFF;
   padding-bottom: 40px;
+  text-align: center;
 }
 .skill h2 {
-  text-align: center;
   border-bottom: 1px solid #FFFFFF;
   padding-top: 24px;
   margin-bottom: 40px;
@@ -204,13 +208,18 @@ h2 span {
   color: #FFFFFF;
 }
 .skill ul {
-  width: 220px;
-  margin: 0 auto;
+  background: #000;
+  display: inline-block;
+  -moz-text-align-last: left;
+       text-align-last: left;
   border-left: 1px solid #FFFFFF;
   padding-left: 24px;
 }
 .skill ul li {
-  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.skill .container {
+  max-width: 996px;
 }
 
 .work h3 {
@@ -258,6 +267,10 @@ h2 span {
   color: #A00404;
 }
 
-.social img {
+.social a {
   margin-left: 24px;
+}
+.social img:hover {
+  background: #A00404;
+  border-radius: 50%;
 }/*# sourceMappingURL=all.css.map */
