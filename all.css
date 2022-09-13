@@ -214,7 +214,7 @@ h2 span {
   border-left: 1px solid #FFFFFF;
   padding-left: 24px;
 }
-.skill ul li {
+.skill ul li:not(:last-child) {
   margin-bottom: 8px;
 }
 .skill .container {

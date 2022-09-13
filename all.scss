@@ -68,7 +68,7 @@ h2{
     text-align-last: left;
     border-left: 1px solid #FFFFFF;
     padding-left: 24px;
-    li{
+    li:not(:last-child){
       margin-bottom: 8px;
       //會影響最下面的li多8px
     }
